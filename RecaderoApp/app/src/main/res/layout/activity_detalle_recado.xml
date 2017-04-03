@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roberto.recaderoapp.activities.DetalleRecadoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_recado"
+        android:textSize="20sp"
+        android:text="@string/literal_detalle"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_cliente"
+        android:textSize="15sp"
+        android:text="@string/literal_cliente"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caja_cliente"
+        android:textSize="15sp"
+        android:layout_marginTop="40sp"
+        android:layout_toRightOf="@+id/texto_cliente"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_telefono"
+        android:textSize="15sp"
+        android:text="@string/literal_telefono"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/texto_cliente"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caja_telefono"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/texto_telefono"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/texto_cliente"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_dir_recogida"
+        android:textSize="15sp"
+        android:text="@string/literal_direccion_recogida"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/texto_telefono"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caja_dir_recogida"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/texto_dir_recogida"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/texto_telefono"
+        />
+
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_dir_entrega"
+        android:textSize="15sp"
+        android:text="@string/literal_direccion_entrega"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/texto_dir_recogida"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caja_dir_entrega"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/texto_dir_entrega"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/texto_dir_recogida"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_fecha_max"
+        android:textSize="15sp"
+        android:text="@string/literal_fecha_maxima"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/texto_dir_entrega"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caja_fecha_max"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/texto_fecha_max"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/texto_dir_entrega"
+        />
+
+
+
+</RelativeLayout>

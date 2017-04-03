@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecaderoApp</string>
+    <string name="literal_detalle">DETALLE DEL RECADO</string>
+    <string name="literal_cliente">Cliente:</string>
+    <string name="literal_telefono">Telefóno:</string>
+    <string name="literal_direccion_recogida">Dirección Recógida:</string>
+    <string name="literal_direccion_entrega">Dirección Entrega:</string>
+    <string name="literal_fecha_maxima">Fecha máxima:</string>
+    <string name="toast_borrado">No hay recados que borrar</string>
+</resources>
